@@ -1,0 +1,52 @@
+# GCP Service Account Keys - NEVER COMMIT THESE!
+**/key.json
+**/gcp-*.json
+**/*-key.json
+**/*-credentials.json
+**/service-account*.json
+
+# Generated Kubernetes YAML files
+nginx-secrets.txt
+nginx-user-secrets.yaml
+cortex-values.yaml
+prometheus-values.yaml
+prometheus_values.yaml
+rbac.yaml
+prometheus.yaml
+prometheus-users-secrets.yaml
+tmp-cortex.yaml
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+backup/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Helm charts cache
+charts/
